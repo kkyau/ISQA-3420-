@@ -28,3 +28,9 @@ Manager receives inaccurate or invalid license and vulnerability information for
 
 ###Trigger
 Manager uploads or identifies project information to which license and vulnerability information is provided.
+
+#Use Case 2 
+###Title 
+NST Vulnerabilty Database 
+
+###Primary Actor 

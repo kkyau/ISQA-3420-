@@ -10,11 +10,14 @@ The manager of the company is able to determine license and vulnerabilty informa
 
 ###Stakeholders
  a) Manager = To be able to retrieve the precise information about the licenses and vulnerabilities about the project
+ 
  b) Developer = To be able to provide the proper information regarding the relevant file/package information
+ 
  c) Compnay = To be able to understand the manager's decisions based on whether to move the project forward or not 
  
 ###Preconditions 
  a) Relevant file/package information in the database
+ 
  b) Proper project information has been provided 
  
 ###Main Success Scenario 

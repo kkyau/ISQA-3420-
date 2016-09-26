@@ -32,6 +32,6 @@ Manager uploads or identifies project information to which license and vulnerabi
 
 #Use Case 2 
 ###Title 
-Developer Scans for License 
+Developer Scans for License and Vulnerabilities 
 
 ###Primary Actor 

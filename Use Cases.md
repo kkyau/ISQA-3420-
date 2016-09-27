@@ -39,18 +39,18 @@ Developer
 The developer is able to successfully upload software package for scanning. The uploaded package is scanned for licenses and vulnerabilities and the information is returned to the developer and written to the database. 
 
 ###Stakeholders 
- a) Developer = To be able to produce a software that is license and issue free (Not really - it is about being able to scan software for this information. Software is not expected to be license free). 
+ a) Developer = To be able to produce a software that when it is scanned by the database, it does not have issues that will potentially     harm the company and fits all the requirement of the manager
 
- b) Manager = Has to ensure that the software package is free from license or vulnerabilities that might bring issues in the future (same comment) 
+ b) Manager = Has to ensure that the software pacakage is issue free and fits all the requirements needed by the company
 
 ###Preconditions 
  a) There has to be a completed software package present to be able to scan it and check for vulnerabilities 
  
  b) There has to be a database that the package can be written to
  
- c) Ability to connect to NIST...
+ c) Ability to connect to the NST Vulnerability Database 
  
- d) Working version of FOSSology... 
+ d) Working version of FOSSology
  
 ###Main Success Scenarios 
 The package is scanned and returned without any known issues or vulnerabilities from the database (The success scenario is really about writing the vulnerability and license information to the DB and also being able to return this information to the developer). 

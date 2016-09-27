@@ -6,19 +6,17 @@ Determine License and Vulnerability Information
 Manager
 
 ###Goal In Context
-The manager of the company is able to determine license and vulnerabilty information from the software packages & license info
+The manager of the company is able to determine license and vulnerabilty information from provided software packages
 
 ###Stakeholders
- a) Manager = To be able to retrieve the precise information about the licenses and vulnerabilities about the project
+ a) Manager = To be able to retrieve the precise information about the licenses and vulnerabilities about software packages
  
  b) Developer = To be able to provide the proper information regarding the relevant file/package information
  
- c) Compnay = To be able to understand the manager's decisions based on whether to move the project forward or not 
- 
 ###Preconditions 
- a) Relevant file/package information in the database
+ a) Relevant file/package licesne and vulnerability information in the database
  
- b) Proper project information has been provided 
+ b) Manager provides proper query to receive license and vulnerability information from the database
  
 ###Main Success Scenario 
 Manager receives accurate license and vulnerability information for the requested software packages.
@@ -27,34 +25,38 @@ Manager receives accurate license and vulnerability information for the requeste
 Manager receives inaccurate or invalid license and vulnerability information for the requested software packages.
 
 ###Trigger
-Manager uploads or identifies project information to which license and vulnerability information is provided.
+Manager uploads software package query to which license and vulnerability information is provided.
 
 
 #Use Case 2 
 ###Title 
-Developer Scans for License and Vulnerabilities 
+Developer Uploads Software Package to be Scanned for Licenses and Vulnerabilities 
 
 ###Primary Actor 
-Dveloper 
+Developer 
 
 ###Goal In Context 
-The developer has to ensure that his software does not contain any licensed materials or issues before reporting to the manager
+The developer is able to successfully upload software package for scanning. The uploaded package is scanned for licenses and vulnerabilities and the information is returned to the developer and written to the database. 
 
 ###Stakeholders 
- a) Developer = To be able to produce a software that is license and issue free
+ a) Developer = To be able to produce a software that is license and issue free (Not really - it is about being able to scan software for this information. Software is not expected to be license free). 
 
- b) Manager = Has to ensure that the software package is free from license or vulnerabilities that might bring issues in the future
+ b) Manager = Has to ensure that the software package is free from license or vulnerabilities that might bring issues in the future (same comment) 
 
 ###Preconditions 
- a) There has to be a completed software package present to be able to scan it
+ a) There has to be a completed software package present to be able to scan it and check for vulnerabilities 
  
- b) There has to be a database that the package can be compared to
+ b) There has to be a database that the package can be written to
+ 
+ c) Ability to connect to NIST...
+ 
+ d) Working version of FOSSology... 
  
 ###Main Success Scenarios 
-The package is scanned and returned without any known issues or vulnerabilities from the database 
+The package is scanned and returned without any known issues or vulnerabilities from the database (The success scenario is really about writing the vulnerability and license information to the DB and also being able to return this information to the developer). 
 
 ###Failed End Conditions
-The package is scanned and the results are returned with various license issues and vulnerabilities 
+The package is scanned and the results are returned with various license issues and vulnerabilities (see prior comments)
 
 ###Trigger
 Developer uploads software package to a database that is able to scan for license and vulnerabilities. 

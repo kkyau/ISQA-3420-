@@ -39,9 +39,9 @@ Developer
 The developer is able to successfully upload software package for scanning. The uploaded package is scanned for licenses and vulnerabilities and the information is returned to the developer and written to the database. 
 
 ###Stakeholders 
- a) Developer = To be able to produce a software that when it is scanned by the database, it does not have issues that will potentially     harm the company and fits all the requirement of the manager
+ a) Developer = To be able to produce a software that has to be recognized by the database when it is scanned against it as well as fits                 the requirements of manager
 
- b) Manager = Has to ensure that the software pacakage is issue free and fits all the requirements needed by the company
+ b) Manager = Has to ensure that the software pacakage is free of issues and fits all the requirements needed by the company
 
 ###Preconditions 
  a) There has to be a completed software package present to be able to scan it and check for vulnerabilities 
@@ -53,10 +53,12 @@ The developer is able to successfully upload software package for scanning. The 
  d) Working version of FOSSology
  
 ###Main Success Scenarios 
-The package is scanned and returned without any known issues or vulnerabilities from the database (The success scenario is really about writing the vulnerability and license information to the DB and also being able to return this information to the developer). 
+The package is scanned and returned to the developer after the information has been stored in the database.  (The success scenario is really about writing the vulnerability and license information to the DB and also being able to return this information to the developer). 
 
 ###Failed End Conditions
-The package is scanned and the results are returned with various license issues and vulnerabilities (see prior comments)
+ a) The package is scanned but the database does not add the software's licenses and vulnerabilities to the database. 
+ 
+ b) The pacakage is scanned but is not returned to the developer 
 
 ###Trigger
 Developer uploads software package to a database that is able to scan for license and vulnerabilities. 

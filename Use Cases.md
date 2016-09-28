@@ -53,7 +53,7 @@ The developer is able to successfully upload software package for scanning. The 
  d) Working version of FOSSology
  
 ###Main Success Scenarios 
-The package is scanned and returned to the developer after the information has been stored in the database.  (The success scenario is really about writing the vulnerability and license information to the DB and also being able to return this information to the developer). 
+The package is scanned and returned to the developer after the information has been stored in the database.  
 
 ###Failed End Conditions
  a) The package is scanned but the database does not add the software's licenses and vulnerabilities to the database. 

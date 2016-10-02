@@ -88,12 +88,17 @@ b) The manager has to have the proper information to modify or update the data s
 ###Main Success Scenarios 
 a) The software package is scanned and the data store is able to scan the package and return the results accordingly. 
 
+b) When the manager attempts to modify or update the policy documents, the data store recognizes the changes and saves the changes. 
+
 ###Failed End Conditions 
 a) The package is scanned but the data store is unable to identify the proper license and vulnerabilities. 
 
 b) The package is scanned but not returned to the developer or the manager. 
 
-###Trigger 
-a) The developer uplaods a package requesting to identify licenses or vulnerabilities. 
+c) The data store does not recognize that the manager is trying to modify or update policy documents. 
 
-b) 
+###Trigger 
+a) The developer or manager uplaods a package requesting to identify licenses or vulnerabilities. 
+
+b) The manager attempts to modify or update policy documents. 
+

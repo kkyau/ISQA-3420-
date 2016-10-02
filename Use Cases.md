@@ -62,3 +62,38 @@ The package is scanned and returned to the developer after the information has b
 
 ###Trigger
 Developer uploads software package to a database that is able to scan for license and vulnerabilities. 
+
+#Use Case 3 
+###Title 
+Submitting a Project Request 
+
+###Primary Actor 
+a) Developer
+
+b) Manager
+
+###Goal In Context 
+To be able to submit a project request as well as for the manager to be able to submit or modify policy documents. 
+
+###Stakeholders 
+a) Manager
+
+b) Developer
+
+###Preconditions 
+a) There has to be a data store available to scan the software package against.
+
+b) The manager has to have the proper information to modify or update the data store. 
+
+###Main Success Scenarios 
+a) The software package is scanned and the data store is able to scan the package and return the results accordingly. 
+
+###Failed End Conditions 
+a) The package is scanned but the data store is unable to identify the proper license and vulnerabilities. 
+
+b) The package is scanned but not returned to the developer or the manager. 
+
+###Trigger 
+a) The developer uplaods a package requesting to identify licenses or vulnerabilities. 
+
+b) 

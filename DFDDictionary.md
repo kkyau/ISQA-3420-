@@ -1,20 +1,30 @@
-Developer - Person responsible for all the coding the main software packages and preparing for the license scan.
+##External Entity 
+a) Developer = Person who creates the software pacakage. 
 
-Manager - Advisor for the software packages. 
+b) Manager = Person in charge of the overseeing the developement of of the software package. 
 
-Software Package - Multiple code files that make up a software. 
+##Processes
+a) Scan package for vulnerabilities and license = Process where software pacakage is scanned for known vulnerabilities and license. 
 
-Checked for OSS Components - Process that checks for open source software in the file.
+b) Retrieve full list of project license and vulnerability information = Process where the request for the full list of project license and                                                                          vulnerability information is processed. 
 
-OSS Results - The results returned after being checked for OSS components. 
+c) Retrieve project policy = Process where the project policy is requested from the Project Policy for Licenses and Vulnerabilities. 
 
-Scan for Licenses - Process that scans for any licenses that can be found in the program. 
- 
-Request for package and license info - Process where manager requests package for corresponding license info. 
+d) Update or modify project policy = Process where the manager sends a request to update project policy.
 
-Package and Info Request - Request by manager for pacakage and info. 
+e) FOSSology = Process where the software package is scanned for any known licenses. 
 
-Package and Info Response - Response to manager for package and info. 
+##Database 
+a) NIST Vulnerability DB = Database where the package is scanned against to check for any existing licenses. 
+
+b) Project License and Vulnerability Information Database = Database containing existing project license and vulnerability. 
+
+c) Project Policy For Licenses and Vulnerabilities = Database containing existing project policy for licenses and vulnerabilities. 
+
+##Data Flow 
+a) Software pacakage = An assembly of files created by the developer to make a software.
+
+
 
 
 

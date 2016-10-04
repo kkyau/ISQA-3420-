@@ -65,7 +65,7 @@ Developer uploads software package to a database that is able to scan for licens
 
 #Use Case 3 
 ###Title 
-Submitting a Project Request 
+Retrieving Project Policy For License and Vulnerabilities   
 
 ###Primary Actor 
 a) Developer
@@ -73,32 +73,22 @@ a) Developer
 b) Manager
 
 ###Goal In Context 
-To be able to submit a project request as well as for the manager to be able to submit or modify policy documents. 
+To be able to receive project policy for license and vulnerabilities upon request. 
 
 ###Stakeholders 
-a) Manager
+a) Manager 
 
 b) Developer
 
 ###Preconditions 
-a) There has to be a data store available to scan the software package against.
-
-b) The manager has to have the proper information to modify or update the data store. 
+There has to be a project policy for license and vulnerabilities in the database to be able to retrieve. 
 
 ###Main Success Scenarios 
-a) The software package is scanned and the data store is able to scan the package and return the results accordingly. 
-
-b) When the manager attempts to modify or update the policy documents, the data store recognizes the changes and saves the changes. 
+The developer or manager are able to receive the project policy when requested.  
 
 ###Failed End Conditions 
-a) The package is scanned but the data store is unable to identify the proper license and vulnerabilities. 
-
-b) The package is scanned but not returned to the developer or the manager. 
-
-c) The data store does not recognize that the manager is trying to modify or update policy documents. 
+The system is unable to return any results from the Project Policy For License and Vulnerabilities to the developer or the manager. 
 
 ###Trigger 
-a) The developer or manager uplaods a package requesting to identify licenses or vulnerabilities. 
-
-b) The manager attempts to modify or update policy documents. 
+The developer or manager sends a request for the project policy.
 

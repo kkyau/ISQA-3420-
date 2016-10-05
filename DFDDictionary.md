@@ -15,11 +15,11 @@ d) Update or modify project policy = Process where the manager sends a request t
 e) FOSSology = Process where the software package is scanned for any known licenses. 
 
 ##Database 
-a) NIST Vulnerability DB = Database where the package is scanned against to check for any existing licenses. 
+a) NIST Vulnerability Database = Database where the package is scanned against to check for any existing licenses. 
 
 b) Project License and Vulnerability Information Database = Database containing existing project license and vulnerability. 
 
-c) Project Policy For Licenses and Vulnerabilities = Database containing existing project policy for licenses and vulnerabilities. 
+c) Project Policy For Licenses and Vulnerabilities Database = Database containing existing project policy for licenses and                                                                             vulnerabilities. 
 
 ##Data Flow 
 a) Software pacakage = An assembly of files created by the developer to make a software.

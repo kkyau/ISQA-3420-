@@ -48,7 +48,7 @@ The developer is able to successfully upload software package for scanning. The 
  
  b) There has to be a database that the package can be written to.
  
- c) Ability to connect to the NST Vulnerability Database.
+ c) Ability to connect to the NIST Vulnerability Database.
  
  d) Working version of FOSSology.
  
@@ -87,7 +87,7 @@ There has to be a project policy for license and vulnerabilities in the database
 The developer or manager are able to receive the project policy when requested.  
 
 ###Failed End Conditions 
-The system is unable to return any results from the Project Policy For License and Vulnerabilities to the developer or the manager. 
+The system is unable to return any results from the Project Policy For License and Vulnerabilities Database to the developer or the manager. 
 
 ###Trigger 
 The developer or manager sends a request for the project policy.

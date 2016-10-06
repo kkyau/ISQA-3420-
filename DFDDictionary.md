@@ -1,4 +1,4 @@
-##External Entity 
+##External Entities 
 a) Developer = Person who creates the software pacakage. 
 
 b) Manager = Person in charge of the overseeing the developement of of the software package. 
@@ -14,14 +14,14 @@ d) Update or modify project policy = Process where the manager sends a request t
 
 e) FOSSology = Process where the software package is scanned for any known licenses. 
 
-##Database 
+##Data Stores
 a) NIST Vulnerability Database = Database where the package is scanned against to check for any existing licenses. 
 
 b) Project License and Vulnerability Information Database = Database containing existing project license and vulnerability. 
 
 c) Project Policy For Licenses and Vulnerabilities Database = Database containing existing project policy for licenses and                                                                             vulnerabilities. 
 
-##Data Flow 
+##Data Flows 
 a) Software pacakage = An assembly of files created by the developer to make a software.
 
 b) Software package name = Software package sent to NIST Vulnerability DB to scan for existing license. 
@@ -43,12 +43,3 @@ i) Project policy request = Request sent by developer or manager to retrieve exi
 j) Project policy results = Results retrieved from the Project Policy For Licenses and Vulnerabilities Database. 
 
 k) Policy to be updated or modified = A request by the manager to update or modify the current policy in the Project Policy for Licenses                                       and Vulnerabilties Database
-
-
-
-
-
-
-
-
-

@@ -24,9 +24,9 @@ c) Project Policy For Licenses and Vulnerabilities Database = Database containin
 ##Data Flows 
 a) Software pacakage = An assembly of files created by the developer to make a software.
 
-b) Software package name = Software package sent to NIST Vulnerability DB to scan for existing license. 
+b) Software package name = Software package sent to NIST Vulnerability Database to scan for existing license. 
 
-c) NIST Vulnerability DB results = Results containing exisiting license in the software pacakage.
+c) NIST Vulnerability Database results = Results containing exisiting license in the software pacakage.
 
 d) Software package result = Results from the scanned software pacakage. 
 
@@ -38,7 +38,7 @@ g) Project license and vulnerability request = Request sent by developer or mana
 
 h) Project license and vulnerability information = The results retrieved from the Project License and Vulnerability Information                                                            Database.
 
-i) Project policy request = Request sent by developer or manager to retrieve existing policies from the Project Policy for License and                               Vulnerabilities Database
+i) Project policy request = Request sent by developer or manager to retrieve existing policies from the Project Policy for Licenses and                               Vulnerabilities Database
 
 j) Project policy results = Results retrieved from the Project Policy For Licenses and Vulnerabilities Database. 
 

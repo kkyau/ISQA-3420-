@@ -4,7 +4,7 @@ a) Developer = Person who creates the software pacakage.
 b) Manager = Person in charge of the overseeing the developement of of the software package. 
 
 ##Processes
-a) Scan package for vulnerabilities and license = Process where software pacakage is scanned for known vulnerabilities and license. 
+a) Scan package for vulnerabilities and licenses = Process where software pacakage is scanned for known vulnerabilities and licenses. 
 
 b) Retrieve full list of project license and vulnerability information = Process where the request for the full list of project license and                                                                          vulnerability information is processed. 
 

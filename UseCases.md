@@ -9,9 +9,9 @@ Manager
 The manager of the company is able to determine license and vulnerabilty information from provided software packages.
 
 ###Stakeholders
- a) Manager = To be able to retrieve the precise information about the licenses and vulnerabilities about software packages.
+ a) Manager = To be able to retrieve any known information about the license and vulnerability in the software package.
  
- b) Developer = To be able to provide the proper information regarding the relevant file/package information.
+ b) Developer = To be able to provide the proper information regarding the package information.
  
 ###Preconditions 
  a) Relevant file/package license and vulnerability information in the database.

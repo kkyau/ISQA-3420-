@@ -25,7 +25,7 @@ Manager receives accurate license and vulnerability information for the requeste
 Manager receives inaccurate or invalid license and vulnerability information for the requested software packages.
 
 ###Trigger
-Manager uploads software package query to which license and vulnerability information is provided.
+Manager uploads software package to which license and vulnerability information is provided.
 
 
 #Use Case 2 
